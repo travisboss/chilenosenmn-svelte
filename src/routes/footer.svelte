@@ -1,11 +1,11 @@
-<footer class="text-gray-600 body-font">
+<footer class="text-gray-600 dark:text-white body-font mt-8">
 	<div class="bg-gray-100">
-		<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-			<p class="text-gray-500 text-sm text-center sm:text-left">
+		<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
+			<p class="text-gray-500 dark:text-white text-sm text-center sm:text-left">
 				© 2021 Copyright:
 				<a
 					href="https://github.com/travisboss"
-					class="text-gray-600 ml-1"
+					class="text-gray-600 dark:text-white ml-1"
 					target="_blank"
 					rel="noopener noreferrer">Travis Boss</a
 				>
@@ -15,7 +15,7 @@
 					href="https://www.facebook.com/chilenos.fernandez.9"
 					rel="noopener noreferrer"
 					target="_blank"
-					class="text-gray-500 w-10"
+					class="text-gray-500 dark:text-white w-10"
 				>
 					<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 						><title>Facebook</title><path

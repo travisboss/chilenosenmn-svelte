@@ -1,5 +1,5 @@
 <!-- Navbar goes here -->
-<nav class="bg-white shadow-lg">
+<nav class="bg-white dark:bg-gray-800 light:shadow-lg">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-7">
@@ -7,7 +7,7 @@
 					<!-- Website Logo -->
 					<a href="/home" class="flex items-center py-4 px-2">
 						<img src="/chilenosEnMN.png" alt="Logo" class="h-8 w-8 mr-2" />
-						<span class="font-semibold text-gray-500 text-lg">Chilenos en MN</span>
+						<span class="font-semibold text-gray-500 dark:text-white text-lg">Chilenos en MN</span>
 					</a>
 				</div>
 			</div>
@@ -19,17 +19,17 @@
 					>
 					<a
 						href="/services"
-						class="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 transition duration-300"
+						class="py-4 px-2 text-gray-500 dark:text-white font-semibold hover:text-red-500 transition duration-300"
 						>Services</a
 					>
 					<a
 						href="/about"
-						class="py-4 px-2 text-gray-500 font-semibold hover:text-red-500 transition duration-300"
+						class="py-4 px-2 text-gray-500 dark:text-white font-semibold hover:text-red-500 transition duration-300"
 						>About</a
 					>
 					<a
 						href="/contact"
-						class="py-4 px-2 text-gray-500 font-semibold hover:red-green-500 transition duration-300"
+						class="py-4 px-2 text-gray-500 dark:text-white font-semibold hover:red-green-500 transition duration-300"
 						>Contact Us</a
 					>
 				</div>

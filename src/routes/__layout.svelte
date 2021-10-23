@@ -5,10 +5,15 @@
 	import Carousel from './carousel.svelte';
 	import Annouce from './annouce.svelte';
 	import Form from './form.svelte';
+	import Card from './card.svelte';
 </script>
 
-<Header />
-<Annouce />
-<slot />
-<Form />
-<Footer />
+<div class="dark:bg-gray-800">
+	<Header />
+	<Carousel />
+	<Annouce />
+	<Card />
+	<!-- <slot /> -->
+	<Form />
+	<Footer />
+</div>

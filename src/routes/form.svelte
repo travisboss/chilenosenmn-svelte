@@ -1,8 +1,8 @@
-<div class="container">
+<section class="container">
 	<div class="mt-8 max-w-md mx-auto">
-		<div class="grid grid-cols-1 gap-6">
+		<form class="grid grid-cols-1 gap-6" action="/" method="post">
 			<label class="block">
-				<span class="text-gray-700">Full name</span>
+				<span class="text-gray-700 dark:text-white">Full name</span>
 				<input
 					type="text"
 					class="
@@ -15,10 +15,11 @@
             focus:border-gray-500 focus:bg-white focus:ring-0
           "
 					placeholder=""
+					required
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700">Email address</span>
+				<span class="text-gray-700 dark:text-white">Email address</span>
 				<input
 					type="email"
 					class="
@@ -30,11 +31,12 @@
             border-transparent
             focus:border-gray-500 focus:bg-white focus:ring-0
           "
-					placeholder="john@example.com"
+					required
+					placeholder="email@email.com"
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700">Additional details</span>
+				<span class="text-gray-700 dark:text-white">Additional details</span>
 				<textarea
 					class="
             mt-1
@@ -45,14 +47,19 @@
             border-transparent
             focus:border-gray-500 focus:bg-white focus:ring-0
           "
+					required
 					rows="3"
 				/>
 			</label>
 			<div class="block">
 				<div class="mt-2">
+					<button
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+						type="submit">Submit</button
+					>
 					<div />
 				</div>
 			</div>
-		</div>
+		</form>
 	</div>
-</div>
+</section>
