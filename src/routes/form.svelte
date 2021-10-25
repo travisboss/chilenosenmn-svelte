@@ -4,15 +4,8 @@
 
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
-		<form
-			name="contact"
-			class="grid grid-cols-1 gap-6"
-			method="post"
-			netlify
-			netlify-honeypot="bot-field"
-		>
+		<form name="contact" class="grid grid-cols-1 gap-6" method="post" netlify>
 			<input type="hidden" name="form-name" value="contact" />
-			<input type="hidden" name="bot-field" />
 			<label class="block">
 				<span class="text-gray-700 dark:text-white capitalize form__name">Full name</span>
 				<input
