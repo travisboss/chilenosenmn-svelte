@@ -23,9 +23,8 @@
 			<div class="p-4 flex justify-center flex-col">
 				<h2 class="card__title text-xl font-semibold mb-2 dark:text-white text-center capitalize">
 					{card.title}
-				</h{service.split('/')[1]}>
-
-				<!-- <p class=" card__text mb-4 dark:text-white">{card.text}</p> -->
+				</h2>
+				<p>{card.split('/')[1]}mb-4 dark:text-white">{card.text}</p>
 
 				<button
 					class="card-button bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
