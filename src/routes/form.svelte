@@ -5,6 +5,7 @@
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
 		<form name="contact" class="grid grid-cols-1 gap-6" method="POST" data-netlify="true">
+			<input type="hidden" name="form-name" value="contact" />
 			<label class="block">
 				<span class="text-gray-700 dark:text-white capitalize form__name">Full name</span>
 				<input
@@ -20,7 +21,6 @@
           "
 					name="name"
 					placeholder=""
-					required
 				/>
 			</label>
 			<label class="block">
@@ -37,7 +37,6 @@
             focus:border-gray-500 focus:bg-white focus:ring-0
           "
 					name="email"
-					required
 					placeholder="email@email.com"
 				/>
 			</label>
@@ -55,9 +54,8 @@
             border-transparent
             focus:border-gray-500 focus:bg-white focus:ring-0
           "
-					required
-					rows="3"
 					name="message"
+					rows="3"
 				/>
 			</label>
 			<div class="block">
