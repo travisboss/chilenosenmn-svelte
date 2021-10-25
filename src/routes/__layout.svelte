@@ -13,7 +13,6 @@
 	<Carousel />
 	<Annouce />
 	<Card />
-	<!-- <slot /> -->
 	<Form />
 	<Footer />
 </div>

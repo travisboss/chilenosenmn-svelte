@@ -1,13 +1,10 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
-		<form name="contact" class="grid grid-cols-1 gap-6" method="post" netlify>
+		<form name="contact" class="grid grid-cols-1 gap-6" method="post">
 			<input type="hidden" name="form-name" value="contact" />
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__name">Full name</span>
+				<span class="text-gray-700 dark:text-white capitalize form__name" for="name">Full name</span
+				>
 				<input
 					type="text"
 					class="
@@ -24,7 +21,9 @@
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__email">Email address</span>
+				<span class="text-gray-700 dark:text-white capitalize form__email" for="email"
+					>Email address</span
+				>
 				<input
 					type="email"
 					class="
@@ -41,7 +40,7 @@
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__details"
+				<span class="text-gray-700 dark:text-white capitalize form__details" for="message"
 					>Additional details</span
 				>
 				<textarea
