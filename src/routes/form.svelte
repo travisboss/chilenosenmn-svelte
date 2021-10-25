@@ -1,6 +1,6 @@
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
-		<form action="https://formspree.io/f/xqkwowwb" method="POST" class="grid grid-cols-1 gap-6">
+		<form action="https://formspree.io/f/xknkakka" method="POST" class="grid grid-cols-1 gap-6">
 			<label class="block">
 				<span class="form-label form__name">Full name</span>
 				<input type="text" class="form-control" name="name" placeholder="" />
