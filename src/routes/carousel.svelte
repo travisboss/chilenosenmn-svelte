@@ -1,4 +1,4 @@
-<section class="container mx-auto">
+<section class="container mx-auto pt-32 pb-8">
 	<div class="max-h-full max-w-full">
 		<img
 			class="w-full h-auto"

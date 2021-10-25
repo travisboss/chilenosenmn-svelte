@@ -1,8 +1,8 @@
-<section class="container">
+<section class="container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
 		<form class="grid grid-cols-1 gap-6" action="/" method="post">
 			<label class="block">
-				<span class="text-gray-700 dark:text-white">Full name</span>
+				<span class="text-gray-700 dark:text-white capitalize">Full name</span>
 				<input
 					type="text"
 					class="
@@ -19,7 +19,7 @@
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white">Email address</span>
+				<span class="text-gray-700 dark:text-white capitalize">Email address</span>
 				<input
 					type="email"
 					class="
@@ -36,7 +36,7 @@
 				/>
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white">Additional details</span>
+				<span class="text-gray-700 dark:text-white capitalize">Additional details</span>
 				<textarea
 					class="
             mt-1
@@ -54,7 +54,7 @@
 			<div class="block">
 				<div class="mt-2">
 					<button
-						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+						class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded uppercase"
 						type="submit">Submit</button
 					>
 					<div />

@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container mx-auto">
 	<div class="flex mx-4 overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 my-5">
 		<div class="flex items-center justify-center w-12 bg-blue-500">
 			<svg
