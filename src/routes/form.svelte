@@ -1,61 +1,17 @@
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
-		<form name="contact" class="grid grid-cols-1 gap-6" method="post">
-			<input type="hidden" name="form-name" value="contact" />
+		<form action="https://formspree.io/f/mnqlylln" method="POST" class="grid grid-cols-1 gap-6">
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__name" for="name">Full name</span
-				>
-				<input
-					type="text"
-					class="
-            mt-1
-            block
-            w-full
-            rounded-md
-            bg-gray-100
-            border-transparent
-            focus:border-gray-500 focus:bg-white focus:ring-0
-          "
-					name="name"
-					placeholder=""
-				/>
+				<span class="form-label form__name">Full name</span>
+				<input type="text" class="form-control" name="name" placeholder="" />
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__email" for="email"
-					>Email address</span
-				>
-				<input
-					type="email"
-					class="
-            mt-1
-            block
-            w-full
-            rounded-md
-            bg-gray-100
-            border-transparent
-            focus:border-gray-500 focus:bg-white focus:ring-0
-          "
-					name="email"
-					placeholder="email@email.com"
-				/>
+				<span class="form-label form__email">Email address</span>
+				<input type="email" class="form-control" name="_replayto" placeholder="email@email.com" />
 			</label>
 			<label class="block">
-				<span class="text-gray-700 dark:text-white capitalize form__details" for="message"
-					>Additional details</span
-				>
-				<textarea
-					class="
-            mt-1
-            block
-            w-full
-            rounded-md
-            bg-gray-100
-            border-transparent
-            focus:border-gray-500 focus:bg-white focus:ring-0
-          "
-					name="message"
-					rows="3"
-				/>
+				<span class="form-label form__details">Additional details</span>
+				<textarea class="form-control" name="message" rows="3" />
 			</label>
 			<div class="block">
 				<div class="mt-2">
@@ -69,3 +25,12 @@
 		</form>
 	</div>
 </section>
+
+<style>
+	.form-control {
+		@apply mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0;
+	}
+	.form-label {
+		@apply text-gray-700 dark:text-white capitalize;
+	}
+</style>
