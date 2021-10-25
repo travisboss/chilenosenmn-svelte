@@ -12,7 +12,7 @@
 			netlify-honeypot="bot-field"
 		>
 			<input type="hidden" name="form-name" value="contact" />
-			<input type="text" name="bot-field" />
+			<input type="hidden" name="bot-field" />
 			<label class="block">
 				<span class="text-gray-700 dark:text-white capitalize form__name">Full name</span>
 				<input
