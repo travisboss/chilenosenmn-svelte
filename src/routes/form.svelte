@@ -1,6 +1,6 @@
 <section class="form container mx-auto p-4">
 	<div class="mt-8 max-w-md mx-auto">
-		<form name="contact" class="grid grid-cols-1 gap-6" method="post" data-netlify="true">
+		<form name="contact" class="grid grid-cols-1 gap-6" method="POST" netlify>
 			<label class="block">
 				<span class="text-gray-700 dark:text-white capitalize form__name">Full name</span>
 				<input
