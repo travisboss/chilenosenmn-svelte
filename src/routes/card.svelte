@@ -1,15 +1,15 @@
 <script>
 	const cards = [
 		{
-			img: 'https://source.unsplash.com/random/350x196/?chile',
+			img: 'https://source.unsplash.com/featured/350x196/?chile',
 			title: 'card title'
 		},
 		{
-			img: 'https://source.unsplash.com/random/350x196/?chile',
+			img: 'https://source.unsplash.com/featured/350x196/?chile',
 			title: 'card title'
 		},
 		{
-			img: 'https://source.unsplash.com/random/350x196/?chile',
+			img: 'https://source.unsplash.com/featured/350x196/?chile',
 			title: 'card title'
 		}
 	];

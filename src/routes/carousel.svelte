@@ -2,7 +2,7 @@
 	<div class="max-h-full max-w-full">
 		<img
 			class="w-full h-auto"
-			src="https://source.unsplash.com/1280x720/?chile,minneapolis"
+			src="https://source.unsplash.com/featured/1280x720/?chile,minneapolis"
 			alt=""
 		/>
 	</div>
