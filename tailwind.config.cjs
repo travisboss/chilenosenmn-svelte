@@ -3,10 +3,6 @@ const config = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 
 	darkMode: 'media',
-	future: {
-		purgeLayersByDefault: true,
-		removeDeprecatedGapUtilities: true
-	},
 	theme: {
 		container: {
 			center: true

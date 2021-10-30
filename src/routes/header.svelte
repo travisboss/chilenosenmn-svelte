@@ -1,5 +1,5 @@
 <script>
-	const services = ['/home', '/about', '/services', '/contact'];
+	const services = ['home', 'about', 'services', 'contact'];
 </script>
 
 <!-- Navbar goes here -->
@@ -9,7 +9,7 @@
 			<div class="flex space-x-7">
 				<div>
 					<!-- Website Logo -->
-					<a href="/home" class="flex items-center py-4 px-2">
+					<a href="#" class="flex items-center py-4 px-2">
 						<img src="/chilenosEnMN.png" alt="Logo" class="h-8 w-8 mr-2" />
 						<h1 class="font-semibold text-gray-800 dark:text-white text-3xl italic">
 							Chilenos en MN
@@ -22,9 +22,9 @@
 				<div class="hidden md:flex items-center space-x-1">
 					{#each services as service}
 						<a
-							href={service}
+							href="#"
 							class="py-4 px-2 text-gray-800 dark:text-white hover:text-red-500 font-semibold capitalize"
-							>{service.split('/')[1]}</a
+							>{service}</a
 						>
 					{/each}
 				</div>
@@ -55,8 +55,8 @@
 		<ul class="">
 			{#each services as service}
 				<li>
-					<a href={service} class="block text-sm px-2 py-4 text-white capitalize font-semibold"
-						>{service.split('/')[1]}</a
+					<a href="#" class="block text-sm px-2 py-4 text-white capitalize font-semibold"
+						>{service}</a
 					>
 				</li>
 			{/each}
