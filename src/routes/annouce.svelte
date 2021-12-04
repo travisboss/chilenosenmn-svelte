@@ -1,6 +1,25 @@
-<section class="announce container mx-auto">
+<script>
+	const title = 'Anuncio Fiestas Patrias 2021';
+	const announcements = [
+		{ paragraph: 'Queridos amigos del club chileno en Minnesota,' },
+		{
+			paragraph:
+				'Con gran pesar les queremos comunicar que debido a la situación que estamos viviendo con COVID-19 y las implicancias de esta emergencia sanitaria, nuestra tradicional celebración de las fiestas patrias será suspendida hasta el próximo año. Así que marquen sus calendarios porque ya tenemos listo el parque para el 17 de septiembre del 2022.'
+		},
+		{
+			paragraph:
+				'Pero como la buena y rica comida chilena no debe faltar en la mesa, pronto estaremos enviándoles un email con toda la información acerca de dónde pueden comprar empanadas entre otros ricos platos para que puedan disfrutar este 17 de septiembre.'
+		},
+		{
+			paragraph:
+				'Un saludo cordial para todos ustedes, esperando que todos estén bien y que esta pandemia no nos impida seguir en contacto con nuestras tradiciones de manera segura.'
+		}
+	];
+</script>
+
+<section class="container mx-auto" id="announce">
 	<div class="flex mx-4 overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 my-5">
-		<div class="flex items-center justify-center w-12 bg-blue-500">
+		<div class="flex items-center justify-center w-12 bg-blue-800">
 			<svg
 				class="w-6 h-6 text-white fill-current"
 				viewBox="0 0 40 40"
@@ -14,27 +33,12 @@
 
 		<div class="px-4 py-2 -mx-3">
 			<div class="mx-3">
-				<h2 class="announce__title font-semibold text-blue-500 dark:text-blue-400">
-					Anuncio Fiestas Patrias 2021
-				</h2>
-				<span class="text-sm text-gray-600 dark:text-gray-200">
-					<p class="my-2 announce__text">Queridos amigos del club chileno en Minnesota,</p>
-					<p class="mb-2 announce__text">
-						Con gran pesar les queremos comunicar que debido a la situación que estamos viviendo con
-						COVID-19 y las implicancias de esta emergencia sanitaria, nuestra tradicional
-						celebración de las fiestas patrias será suspendida hasta el próximo año. Así que marquen
-						sus calendarios porque ya tenemos listo el parque para el 17 de septiembre del 2022.
-					</p>
-					<p class="mb-2 announce__text">
-						Pero como la buena y rica comida chilena no debe faltar en la mesa, pronto estaremos
-						enviándoles un email con toda la información acerca de dónde pueden comprar empanadas
-						entre otros ricos platos para que puedan disfrutar este 17 de septiembre.
-					</p>
-					<p class="mb-2 announce__text">
-						Un saludo cordial para todos ustedes, esperando que todos estén bien y que esta pandemia
-						no nos impida seguir en contacto con nuestras tradiciones de manera segura.
-					</p>
-				</span>
+				<h2 class="font-semibold text-blue-800 dark:text-blue-800">{title}</h2>
+				<div class="text-sm text-gray-600 dark:text-gray-200">
+					{#each announcements as { paragraph }}
+						<p class="my-2">{paragraph}</p>
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>

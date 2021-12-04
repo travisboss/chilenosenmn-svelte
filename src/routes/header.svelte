@@ -1,19 +1,22 @@
 <script>
-	const services = ['home', 'about', 'services', 'contact'];
+	const services = ['#home', '#announce', '#photo', '#contact'];
 </script>
 
 <!-- Navbar goes here -->
-<nav class="bg-white dark:bg-gray-800 fixed dark:sm:border-b-2 dark:sm:border-color-white">
+<nav class="bg-white dark:bg-gray-800 dark:sm:border-b-2 dark:sm:border-color-white">
 	<div class="w-screen mx-auto p-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-7">
 				<div>
 					<!-- Website Logo -->
-					<a href="#" class="flex items-center py-4 px-2">
-						<img src="/chilenosEnMN.png" alt="Logo" class="h-8 w-8 mr-2" />
-						<h1 class="font-semibold text-gray-800 dark:text-white text-3xl italic">
+					<a href={services[0]} class="flex items-center py-4 px-2">
+						<img src="/chilenosEnMN.png" alt="Logo" class="h-auto w-1/12 mr-2" />
+						<h1 class="font-semibold dark:text-white lg:text-5xl md:text-4xl text-xl">
 							Chilenos en MN
 						</h1>
+						<a href={services[1]} class="sr-only focus:not-sr-only dark:text-white">
+							Skip to content
+						</a>
 					</a>
 				</div>
 			</div>
@@ -22,9 +25,9 @@
 				<div class="hidden md:flex items-center space-x-1">
 					{#each services as service}
 						<a
-							href="#"
-							class="py-4 px-2 text-gray-800 dark:text-white hover:text-red-500 font-semibold capitalize"
-							>{service}</a
+							href={service}
+							class="py-4 px-2 text-gray-800 dark:text-white hover:text-red-500 font-semibold capitalize lg:text-2xl md:text-lg text-base"
+							>{service.split('#')[1]}</a
 						>
 					{/each}
 				</div>
@@ -55,8 +58,10 @@
 		<ul class="">
 			{#each services as service}
 				<li>
-					<a href="#" class="block text-sm px-2 py-4 text-white capitalize font-semibold"
-						>{service}</a
+					<a
+						href={service}
+						class="block text-sm px-2 py-4 text-gray-800 dark:text-white capitalize font-semibold"
+						>{service.split('#')[1]}</a
 					>
 				</li>
 			{/each}
