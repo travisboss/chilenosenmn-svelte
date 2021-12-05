@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-i18n": "^3.3.13",
 		"swiper": "^7.3.1"
 	}
 }
