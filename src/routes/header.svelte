@@ -1,5 +1,6 @@
 <script>
 	const services = ['#home', '#announce', '#photo', '#contact'];
+	let hidden = true;
 </script>
 
 <!-- Navbar goes here -->
@@ -21,7 +22,7 @@
 				</div>
 			</div>
 			<!-- Primary Navbar items -->
-			<div class="hidden md:flex items-center space-x-3 ">
+			<div class="hidden md:flex items-center space-x-3">
 				<div class="hidden md:flex items-center space-x-1">
 					{#each services as service}
 						<a
@@ -34,7 +35,12 @@
 			</div>
 			<!-- Mobile menu button -->
 			<div class="md:hidden flex items-center">
-				<button class="outline-none mobile-menu-button">
+				<button
+					class="outline-none mobile-menu-button"
+					on:click={() => {
+						hidden = !hidden;
+					}}
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class=" fill-current dark:text-white w-6 h-6 text-gray-500"
@@ -54,7 +60,7 @@
 		</div>
 	</div>
 	<!-- mobile menu -->
-	<div class="hidden mobile-menu">
+	<div class="mobile-menu" class:hidden>
 		<ul class="">
 			{#each services as service}
 				<li>
@@ -67,12 +73,4 @@
 			{/each}
 		</ul>
 	</div>
-	<script>
-		const btn = document.querySelector('button.mobile-menu-button');
-		const menu = document.querySelector('.mobile-menu');
-
-		btn.addEventListener('click', () => {
-			menu.classList.toggle('hidden');
-		});
-	</script>
 </nav>

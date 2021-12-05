@@ -1,13 +1,10 @@
-<footer
-	class="footer dark:bg-gray-800 text-gray-600 dark:text-white dark:border-t-2 dark:border-white body-font mt-8"
->
+<footer class="footer">
 	<div class="bg-gray-100 dark:bg-gray-800">
-		<div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
+		<div class="footer--wrapper">
 			<span class="inline-flex mx-auto sm:mt-0 mt-2 justify-center">
 				<a
 					href="https://www.facebook.com/chilenos.fernandez.9"
-					rel="noopener noreferrer"
-					target="_blank"
+					rel="external"
 					class="text-gray-500 dark:text-white w-10 footer__social"
 				>
 					<svg
@@ -22,8 +19,7 @@
 				</a>
 				<a
 					href="https://www.instagram.com/chilenosenmn/"
-					target="_blank"
-					rel="noopener noreferrer"
+					rel="external"
 					class="ml-3 text-gray-500 w-10 footer__social"
 				>
 					<svg
@@ -40,3 +36,12 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	.footer {
+		@apply dark:bg-gray-800 text-gray-600 dark:text-white dark:border-t-2 dark:border-white body-font mt-8;
+	}
+	.footer--wrapper {
+		@apply container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center;
+	}
+</style>
