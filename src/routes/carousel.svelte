@@ -3,13 +3,8 @@
 
 	// Import Swiper styles
 	import 'swiper/css';
-	import 'swiper/css/a11y';
 	import 'swiper/css/autoplay';
 	import 'swiper/css/pagination';
-	import 'swiper/css/navigation';
-
-	import 'swiper/css/pagination';
-	import 'swiper/css/navigation';
 
 	// import Swiper core and required modules
 	import SwiperCore, { Pagination, Autoplay } from 'swiper';
