@@ -6,6 +6,7 @@
 	import Annouce from './annouce.svelte';
 	import Form from './form.svelte';
 	import Card from './card.svelte';
+	import Resources from './resources.svelte';
 	import { waitLocale } from 'svelte-i18n';
 
 	export async function preload() {
@@ -18,6 +19,7 @@
 	<Header />
 	<Carousel />
 	<Annouce />
+	<Resources />
 	<Card />
 	<Form />
 	<Footer />

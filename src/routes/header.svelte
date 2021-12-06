@@ -1,10 +1,10 @@
 <script>
-	const services = ['#home', '#announce', '#photo', '#contact'];
+	const services = ['#home', '#announce', '#photo'];
 	let hidden = true;
 </script>
 
 <!-- Navbar goes here -->
-<nav class="bg-white dark:bg-gray-800 dark:sm:border-b-2 dark:sm:border-color-white">
+<nav class="bg-white dark:bg-gray-800">
 	<div class="w-screen mx-auto p-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-7">

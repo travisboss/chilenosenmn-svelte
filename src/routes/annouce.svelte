@@ -1,4 +1,7 @@
 <script>
+	// import i18n
+	import { _ } from 'svelte-i18n';
+
 	const title = 'Anuncio Fiestas Patrias 2021';
 	const announcements = [
 		{ paragraph: 'Queridos amigos del club chileno en Minnesota,' },
@@ -17,9 +20,9 @@
 	];
 </script>
 
-<section class="container mx-auto" id="announce">
-	<div class="flex mx-4 overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 my-5">
-		<div class="flex items-center justify-center w-12 bg-blue-800">
+<section class="container mx-auto announce">
+	<div class="announce--wrapper">
+		<div class="announce--svg">
 			<svg
 				class="w-6 h-6 text-white fill-current"
 				viewBox="0 0 40 40"
@@ -33,8 +36,8 @@
 
 		<div class="px-4 py-2 -mx-3">
 			<div class="mx-3">
-				<h2 class="font-semibold text-blue-800 dark:text-blue-800">{title}</h2>
-				<div class="text-sm text-gray-600 dark:text-gray-200">
+				<h2 class="font-semibold text-blue-800 dark:text-gray-50">{title}</h2>
+				<div class="text-sm text-gray-600 dark:text-white">
 					{#each announcements as { paragraph }}
 						<p class="my-2">{paragraph}</p>
 					{/each}
@@ -43,3 +46,12 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.announce--wrapper {
+		@apply flex mx-4 overflow-hidden bg-white rounded-lg shadow-md dark:shadow-none dark:bg-gray-800 my-5;
+	}
+	.announce--svg {
+		@apply flex items-center justify-center w-12 bg-blue-800 dark:bg-transparent;
+	}
+</style>

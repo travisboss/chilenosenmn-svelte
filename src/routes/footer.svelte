@@ -39,7 +39,7 @@
 
 <style>
 	.footer {
-		@apply dark:bg-gray-800 text-gray-600 dark:text-white dark:border-t-2 dark:border-white mt-8;
+		@apply dark:bg-gray-800 text-gray-600 dark:text-white mt-8;
 	}
 	.footer--wrapper {
 		@apply container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center;

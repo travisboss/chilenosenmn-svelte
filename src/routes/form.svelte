@@ -14,21 +14,21 @@
 			fields: [
 				{
 					type: 'text',
-					label: 'Name',
-					name: 'email',
+					label: 'Nombre',
+					name: 'name',
 					required: true,
 					placeholder: 'Jane Doe'
 				},
 				{
 					type: 'email',
-					label: 'Email:',
+					label: 'Correo Electrónico:',
 					name: 'email',
 					required: true,
 					placeholder: 'your@email.com'
 				},
 				{
 					type: 'textarea',
-					label: 'Message:',
+					label: 'Mensaje:',
 					name: 'message',
 					required: true,
 					placeholder: "What's on your mind?"
@@ -46,5 +46,3 @@
 		});
 	});
 </script>
-
-import {_} from 'svelte-i18n'
