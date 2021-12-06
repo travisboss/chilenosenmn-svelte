@@ -15,9 +15,9 @@
 	];
 </script>
 
-<section class="flex justify-center">
+<section class="grid grid-cols-3 gap-1">
 	{#each resources as resource}
-		<div class="max-w-sm w-1/3 rounded-lg shadow-lg dark:shadow-none p-4">
+		<figure class="max-w-sm w-full rounded-lg shadow-lg dark:shadow-none p-4 justify-self-center">
 			<h3 class="font-semibold text-lg tracking-wide dark:text-white">{resource.title}</h3>
 			<div class="mt-2">
 				<a
@@ -28,6 +28,6 @@
 					<span class="text-xl ml-2 dark:text-white">&#8594;</span>
 				</a>
 			</div>
-		</div>
+		</figure>
 	{/each}
 </section>
