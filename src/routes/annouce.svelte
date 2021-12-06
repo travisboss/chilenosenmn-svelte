@@ -20,7 +20,7 @@
 	];
 </script>
 
-<section class="container mx-auto announce">
+<section class="container mx-auto announce" id="announce">
 	<div class="announce--wrapper">
 		<div class="announce--svg">
 			<svg
