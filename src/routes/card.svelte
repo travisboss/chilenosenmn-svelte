@@ -25,7 +25,7 @@
 </script>
 
 <section class="cards">
-	<div class="cards--wrapper">
+	<div class="cards--wrapper" id="photo">
 		<div class="relative mx-auto max-w-7xl">
 			<div class="grid max-w-lg gap-12 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
 				{#each cards as card}
