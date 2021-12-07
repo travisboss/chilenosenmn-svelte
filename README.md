@@ -4,10 +4,12 @@ Purpose of this website to help those coming to Minnesota from Chile, to find ev
 
 ## Technologies
 
-- [Sveltekit](https://kit.svelte.dev/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [Swiperjs](https://swiperjs.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Formspree](https://formspree.io/)
+- [Sveltekit](https://kit.svelte.dev/)
+- [Swiperjs](https://swiperjs.com/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
 
 ## WIP
 
