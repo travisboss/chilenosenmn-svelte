@@ -7,6 +7,7 @@ Purpose of this website to help those coming to Minnesota from Chile, to find ev
 - [Sveltekit](https://kit.svelte.dev/)
 - [Tailwindcss](https://tailwindcss.com/)
 - [Swiperjs](https://swiperjs.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## Launch
 
