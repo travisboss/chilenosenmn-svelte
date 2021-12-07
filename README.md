@@ -9,6 +9,10 @@ Purpose of this website to help those coming to Minnesota from Chile, to find ev
 - [Swiperjs](https://swiperjs.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 
+## WIP
+
+In the process of adding i18n to automatically switch between spanish and english depending users prefrences, will use [svelte-18n](https://github.com/kaisermann/svelte-i18n)
+
 ## Launch
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
