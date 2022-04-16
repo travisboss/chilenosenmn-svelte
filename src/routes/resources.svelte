@@ -15,7 +15,7 @@
 	];
 </script>
 
-<section class="grid grid-cols-3 gap-1">
+<section class="grid lg:grid-cols-3 grid-cols-1 gap-1">
 	{#each resources as resource}
 		<figure class="max-w-sm w-full rounded-lg shadow-lg dark:shadow-none p-4 justify-self-center">
 			<h3 class="font-semibold text-lg tracking-wide dark:text-white">{resource.title}</h3>
