@@ -24,7 +24,7 @@
 	</div>
 </section> -->
 
-<section class="container-fluid mx-auto mt-8 overflow-hidden">
+<section class="container-fluid mx-auto overflow-hidden">
 	<Swiper
 		modules={[Pagination, Autoplay, A11y, EffectFade]}
 		effect="fade"
