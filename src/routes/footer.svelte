@@ -2,7 +2,10 @@
 	<div class="bg-gray-100 dark:bg-gray-800">
 		<div class="footer--wrapper">
 			<span class="inline-flex mx-auto sm:mt-0 mt-2 justify-center">
-				<a href="https://www.facebook.com/chilenos.fernandez.9" class="mr-6 text-gray-600">
+				<a
+					href="https://www.facebook.com/chilenos.fernandez.9"
+					class="mr-6 text-gray-600 dark:text-white"
+				>
 					<svg
 						aria-hidden="true"
 						focusable="false"
@@ -19,7 +22,10 @@
 						/>
 					</svg>
 				</a>
-				<a href="https://www.instagram.com/chilenosenmn/" class="mr-6 text-gray-600">
+				<a
+					href="https://www.instagram.com/chilenosenmn/"
+					class="mr-6 text-gray-600 dark:text-white"
+				>
 					<svg
 						aria-hidden="true"
 						focusable="false"
