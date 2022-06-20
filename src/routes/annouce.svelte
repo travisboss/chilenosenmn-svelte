@@ -2,20 +2,32 @@
 	// import i18n
 	import { _ } from 'svelte-i18n';
 
-	const title = 'Anuncio Fiestas Patrias 2021';
+	const title = 'Actividades 2022';
 	const announcements = [
-		{ paragraph: 'Queridos amigos del club chileno en Minnesota,' },
 		{
 			paragraph:
-				'Con gran pesar les queremos comunicar que debido a la situación que estamos viviendo con COVID-19 y las implicancias de esta emergencia sanitaria, nuestra tradicional celebración de las fiestas patrias será suspendida hasta el próximo año. Así que marquen sus calendarios porque ya tenemos listo el parque para el 17 de septiembre del 2022.'
+				'Después de una larga espera, ¡ha salido el sol en Minnesota! Razón suficiente para volver a vernos en persona, celebrar juntos la llegada de la primavera y volver a mostrar nuestras sonrisas. Los invitamos a dar inicio de la temporada con dos picnics:'
+		},
+		{
+			paragraph: 'Cuándo: el 25 de junio y el 13 de agosto'
+		},
+		{
+			paragraph: 'Hora: a partir de las 12 del día.'
+		},
+		{
+			paragraph: 'Lugar: Bryant Lake, 6800 Rowland Rd, Eden Prairie, MN 55344.'
 		},
 		{
 			paragraph:
-				'Pero como la buena y rica comida chilena no debe faltar en la mesa, pronto estaremos enviándoles un email con toda la información acerca de dónde pueden comprar empanadas entre otros ricos platos para que puedan disfrutar este 17 de septiembre.'
+				'Estaremos ubicados cerca de los juegos de niños. Como ya es costumbre, el club pone el carbón para las parrillas del parque, bebidas, platos y servicios. Cada familia trae su comida, y algo extra para compartir con los demás. ¡Esto no es todo! Marquen sus calendarios para celebrar las fiestas patrias el día 17 de septiembre, en Snail Lake Pavillion at Snail Lake Regional Park, ubicado en 4191 Snail Lake Blvd, Shoreview, MN 55126. Estaremos comunicando más detalles de esta celebración más adelante.'
 		},
 		{
 			paragraph:
-				'Un saludo cordial para todos ustedes, esperando que todos estén bien y que esta pandemia no nos impida seguir en contacto con nuestras tradiciones de manera segura.'
+				'Y el último anuncio, pero no por eso menos importante, es comunicarles que quienes integramos este comité de organización, hemos decidido dar por finalizada nuestra labor a fines del año 2022. Ha sido una larga etapa de muchos años en los que hemos puesto lo mejor de nosotros para formar una comunidad y también para crear nuevas amistades disfrutando de las tradiciones chilenas.'
+		},
+		{
+			paragraph:
+				'No tenemos duda de que hay personas que pueden continuar con nuestra labor y que incluso pueden hacerlo mejor. Invitamos a todos los interesados en formar un nuevo comité a comunicarse con nosotros, pues estaremos más que felices de responder sus preguntas y darles la información que necesiten.'
 		}
 	];
 </script>
