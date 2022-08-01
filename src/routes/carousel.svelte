@@ -11,10 +11,10 @@
 
 	const slides = [
 		{
-			img: 'https://source.unsplash.com/user/loacfr/H6KJ2D0LphU/1440x400',
+			img: 'https://source.unsplash.com/user/loacfr/H6KJ2D0LphU/3000x600',
 			alt: 'valparaiso colorful buildings'
 		},
-		{ img: 'https://source.unsplash.com/9CPAjGVB378/1440x400', alt: 'st paul minnesota skyline' }
+		{ img: 'https://source.unsplash.com/9CPAjGVB378/3000x600', alt: 'st paul minnesota skyline' }
 	];
 </script>
 
