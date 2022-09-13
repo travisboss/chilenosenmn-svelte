@@ -17,7 +17,7 @@
 
 <div class="dark:bg-gray-800">
 	<Header />
-	<Carousel />
+	<!-- <Carousel /> -->
 	<Annouce />
 	<Resources />
 	<Card />
