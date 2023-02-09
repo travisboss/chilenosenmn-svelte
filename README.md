@@ -12,25 +12,25 @@ Requirements
 
 Getting Started
 
-    Clone the repository
+Clone the repository
 
 
 `git clone https://github.com/travisboss/chilenosenmn-svelte.git`
 
-    Install dependencies
+Install dependencies
 
-`npm install`
+    npm install
 
-    Start the development server
+Start the development server
 
-`npm run dev`
+    npm run dev
 
 The application should now be running on http://localhost:5000. You can start making changes to the code and see the updates in real-time in your browser.
 Building and Deploying
 
 To build the production version of the application, run the following command:
 
-`npm run build`
+    npm run build
 
 This will create a public directory with all the necessary files for deployment. You can then deploy this directory to Cloudflare Pages or any other static hosting platform.
 Contributing
