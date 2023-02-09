@@ -1,37 +1,41 @@
-# Introduction
+Chilenosenmn-svelte is a web application built with Svelte and TypeScript. This project showcases the capabilities of these modern technologies for building fast and efficient web applications.
+Key Features
 
-Purpose of this website to help those coming to Minnesota from Chile, to find events and like minded people.
+    Built with Svelte, a modern JavaScript framework for building user interfaces.
+    Written in TypeScript, a statically typed superset of JavaScript that provides optional type checking at compile time.
+    Hosted on Cloudflare Pages, a serverless platform for hosting static websites and JAMstack applications.
 
-## Technologies
+Requirements
 
-- [Cloudflare Pages](https://pages.cloudflare.com/)
-- [Formspree](https://formspree.io/)
-- [Sveltekit](https://kit.svelte.dev/)
-- [Swiperjs](https://swiperjs.com/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+    Node.js (version 12 or higher)
+    npm (version 6 or higher)
 
-## WIP
+Getting Started
 
-In the process of adding i18n to automatically switch between spanish and english depending users prefrences, will use [svelte-18n](https://github.com/kaisermann/svelte-i18n)
+    Clone the repository
 
-## Launch
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+`git clone https://github.com/travisboss/chilenosenmn-svelte.git`
 
-```bash
-npm run dev
+    Install dependencies
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+`npm install`
 
-## Building
+    Start the development server
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+`npm run dev`
 
-```bash
-npm run build
-```
+The application should now be running on http://localhost:5000. You can start making changes to the code and see the updates in real-time in your browser.
+Building and Deploying
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+To build the production version of the application, run the following command:
+
+`npm run build`
+
+This will create a public directory with all the necessary files for deployment. You can then deploy this directory to Cloudflare Pages or any other static hosting platform.
+Contributing
+
+We welcome contributions from the community. If you have any ideas or suggestions, please open an issue or create a pull request.
+License
+
+This project is licensed under the MIT License. See LICENSE for more information.
