@@ -1,9 +1,9 @@
 Chilenosenmn-svelte is a web application built with Svelte and TypeScript. This project showcases the capabilities of these modern technologies for building fast and efficient web applications.
 Key Features
 
-    Built with Svelte, a modern JavaScript framework for building user interfaces.
-    Written in TypeScript, a statically typed superset of JavaScript that provides optional type checking at compile time.
-    Hosted on Cloudflare Pages, a serverless platform for hosting static websites and JAMstack applications.
+Built with Svelte, a modern JavaScript framework for building user interfaces.
+Written in TypeScript, a statically typed superset of JavaScript that provides optional type checking at compile time.
+Hosted on Cloudflare Pages, a serverless platform for hosting static websites and JAMstack applications.
 
 Requirements
 
